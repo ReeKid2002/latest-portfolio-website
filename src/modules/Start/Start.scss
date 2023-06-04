@@ -1,0 +1,18 @@
+.start {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: url('../../assets/images/bgimages/bgImage.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+
+  @media screen and (min-width: 0px) and (max-width: 720px) {
+    gap: 100px;
+  }
+}

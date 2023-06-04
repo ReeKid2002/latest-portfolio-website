@@ -1,0 +1,43 @@
+@import '../../../assets/stylesheets/colors';
+
+.about-details {
+  text-align: left;
+  color: $white;
+  font-family: 'Roboto Mono', monospace;
+
+  @media screen and (min-width: 0px) and (max-width: 720px) {
+    font-size: 10px;
+  }
+
+  .dot {
+    color: $dot;
+  }
+
+  .yellow {
+    color: $yellow
+  }
+
+  .comment {
+    color: $comment;
+  }
+
+  .purple {
+    color: $purple;
+  }
+
+  .this {
+    color: $red;
+  }
+
+  .green {
+    color: $green;
+  }
+
+  .neon {
+    color: $neon;
+  }
+
+  .orange {
+    color: $orange;
+  }
+}

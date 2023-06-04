@@ -1,0 +1,90 @@
+@import '../../assets/stylesheets/colors';
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  z-index: 2;
+  backdrop-filter: blur(2px);
+
+  @media screen and (min-width: 0px) and (max-width: 720px) {
+    position: fixed;
+    top: 0;
+  }
+
+  .header-name {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+
+    & > a {
+      text-decoration: none;
+
+      &:focus, &:hover, &:visited, &:link, &:active {
+          text-decoration: none;
+      }
+    }
+
+    .header-name-start {
+      color: $purple;
+      font-size: 35px;
+
+      @media screen and (min-width: 0px) and (max-width: 720px) {
+        font-size: 15px;
+      }
+    }
+
+    .header-name-mid {
+      color: $white;
+      font-weight: 700;
+      font-size: 40px;
+      text-transform: uppercase;
+
+      @media screen and (min-width: 0px) and (max-width: 720px) {
+        font-size: 20px;
+      }
+    }
+
+    .header-name-end {
+      color: $purple;
+      font-size: 35px;
+
+      @media screen and (min-width: 0px) and (max-width: 720px) {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .header-navs {
+    display: flex;
+    gap: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+
+    & > a {
+      text-decoration: none;
+
+      &:focus, &:hover, &:visited, &:link, &:active {
+          text-decoration: none;
+      }
+    }
+
+    @media screen and (min-width: 0px) and (max-width: 720px) {
+      font-size: 10px;
+    }
+
+    .header-nav {
+      color: $white;
+    }
+
+    .header-nav-symbol {
+      color: $grey;
+    }
+  }
+}

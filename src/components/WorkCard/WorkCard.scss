@@ -1,0 +1,61 @@
+@import '../../assets/stylesheets/colors';
+
+.work-card {
+  z-index: 2;
+  position: relative;
+  height: 300px;
+  width: auto;
+  margin: 30px;
+
+  @media screen and (max-width: 1280px) {
+    height: 350px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    height: 150px;
+  }
+
+  .work-card-title {
+    position: absolute;
+    width: 100%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    bottom: 0px;
+    left: 0px;
+    backdrop-filter: blur(64px);
+
+
+    .title {
+      width: 50%;
+      padding-left: 10px;
+      font-size: 30px;
+      color: $white;
+      text-align: left;
+      word-wrap: break-word;
+
+      @media screen and (max-width: 1280px) {
+        font-size: 20px;
+      }
+    }
+
+    .underline {
+      width: 60%;
+      margin-left: 10px;
+      margin-bottom: 20px;
+      height: 5px;
+      background-color: $white;
+
+      @media screen and (max-width: 1280px) {
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .work-card-image {
+    height: 100%;
+    width: 100%;
+  }
+}
