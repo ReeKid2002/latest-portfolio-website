@@ -5,18 +5,18 @@ export const USER_LAST_NAME = 'Behera'
 export const NAV_LINKS = [
   {
     label: 'Start',
-    link: '#start',
+    link: 'start',
   },
   {
     label: 'Work',
-    link: '#work',
+    link: 'work',
   },
   {
     label: 'About',
-    link: '#about',
+    link: 'about',
   },
   {
     label: 'Contact',
-    link: '#contact',
+    link: 'contact',
   }
 ];

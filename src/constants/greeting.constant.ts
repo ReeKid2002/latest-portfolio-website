@@ -8,6 +8,7 @@ export const GREETING = [
   '안녕하세요',
   '今日は',
   '你好!',
+  'Hello',
 ];
 
 export const WHO_AM_I = [
