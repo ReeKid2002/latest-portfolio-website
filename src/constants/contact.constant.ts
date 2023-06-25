@@ -19,4 +19,9 @@ export const CONTACTS = [
     image: require('../assets/icons/svg/twitter.png'),
     link: 'https://twitter.com/K1dRee'
   },
+  {
+    label: '@Rahul-Behera-Resume',
+    image: require('../assets/icons/svg/resume.png'),
+    link: 'http://bit.ly/rahul-behera-resume'
+  },
 ]

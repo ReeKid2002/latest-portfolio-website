@@ -9,17 +9,16 @@
   padding: 10px 0;
   z-index: 2;
   backdrop-filter: blur(2px);
-
-  @media screen and (min-width: 0px) and (max-width: 720px) {
-    position: fixed;
-    top: 0;
-  }
+  position: fixed;
+  top: 0;
 
   .header-name {
     padding-left: 10px;
     display: flex;
     align-items: center;
     font-family: 'Geologica', sans-serif;
+    cursor: pointer;
+    user-select: none;
 
     & > a {
       text-decoration: none;
@@ -81,6 +80,8 @@
 
     .header-nav {
       color: $white;
+      cursor: pointer;
+      user-select: none;
     }
 
     .header-nav-symbol {

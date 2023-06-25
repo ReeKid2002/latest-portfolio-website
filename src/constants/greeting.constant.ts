@@ -13,8 +13,10 @@ export const GREETING = [
 
 export const WHO_AM_I = [
   'Developer',
+  'Programmer',
+  'Tech-savvy',
+  'Coder',
   'Student',
   'Learner',
-  'Person',
-  'Human',
+  'Knowledge seeker',
 ];
