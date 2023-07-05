@@ -6,9 +6,6 @@ const AboutSection = () => {
   return (
     <div className='about-section'>
       <div className='heading'>ABOUT {'/>'}</div>
-      <div className='timeline'>
-        <div className='line'/>
-      </div>
       <div className='about-section-details'>
         <AboutDetails
           { ...ABOUT }

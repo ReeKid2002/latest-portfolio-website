@@ -4,6 +4,7 @@
   text-align: left;
   color: $white;
   font-family: 'Roboto Mono', monospace;
+  cursor: default;
 
   @media screen and (min-width: 0px) and (max-width: 1080px) {
     margin-right: 10px;
@@ -43,5 +44,11 @@
 
   .orange {
     color: $orange;
+  }
+}
+
+.highlight {
+  & > :hover {
+    color: $purple;
   }
 }

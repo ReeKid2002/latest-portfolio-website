@@ -37,7 +37,7 @@ export const ABOUT = {
     'Jest',
     'Joi',
     'Redis',
-    'Huksy',
+    'Husky',
     'ESLint',
   ],
 }

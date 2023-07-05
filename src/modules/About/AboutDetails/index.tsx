@@ -16,13 +16,13 @@ interface IAboutDetails {
 const AboutDetails = ({ username, dob, email, workExperiences, educations, skills }: IAboutDetails) => {
   return (
     <div className='about-details'>
-      <div><span className='purple'>class</span> <span className='yellow'>{username}</span>{' {'}</div>
-      <div><span className='dot'>··</span><span className='comment'>// I can, because I did.</span></div>
+      <div className='highlight'><span className='purple'>class</span> <span className='yellow'>{username}</span>{' {'}</div>
+      <div className='highlight'><span className='dot'>··</span><span className='comment'>// I did, because I can.</span></div>
       <div><span className='dot'>··</span><span className='comment'>// My vast variety of skills is continuously expanding.</span></div>
       <div>
         <div><span className='dot'>..</span><span className='purple'>constructor</span>() {'{'}</div>
         <div><span className='dot'>....</span><span className='this'>this</span>.<span className='green'>name</span> <span className='this'>=</span> <span className='neon'>{`'${username}'`}</span>;</div>
-        <div><span className='dot'>....</span><span className='this'>this</span>.<span className='green'>dayOfBirthTimestamp</span> <span className='this'>=</span> <span className='orange'>{`${dob}`}</span>;</div>
+        <div><span className='dot'>....</span><span className='this'>this</span>.<span className='green'>dayOfBirthTimestamp</span> <span className='this'>=</span> <span className='orange'>{`${dob}`}</span>; <span className='dot'></span><span className='comment'>// UNIX Timestamp.</span></div>
         <div><span className='dot'>....</span><span className='this'>this</span>.<span className='green'>email</span> <span className='this'>=</span> <span className='neon'>{`'${email}'`}</span>;</div>
         <div><span className='dot'>··</span>{'}'}</div>
       </div>

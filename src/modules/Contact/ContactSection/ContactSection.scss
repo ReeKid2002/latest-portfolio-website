@@ -30,24 +30,6 @@
     }
   }
 
-  .timeline {
-    width: 19.9%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    @media screen and (min-width: 0px) and (max-width: 720px) {
-      width: 19.5%;
-    }
-
-    .line {
-      height: 100%;
-      background-color: $purple;
-      width: 2px;
-    }
-  }
-
   .contact-content {
     padding-top: 250px;
     display: flex;

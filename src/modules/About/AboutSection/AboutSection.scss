@@ -5,8 +5,6 @@
   height: max-content;
   width: 100%;
   position: relative;
-  display: flex;
-
 
   .heading {
     position: absolute;
@@ -30,29 +28,13 @@
     }
   }
 
-  .timeline {
-    width: 19.9%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    @media screen and (min-width: 0px) and (max-width: 720px) {
-      width: 19.5%;
-    }
-
-    .line {
-      height: 100%;
-      background-color: $purple;
-      width: 2px;
-    }
-  }
-
   .about-section-details {
     z-index: 1;
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
-    width: 80.1%;
+    width: 100%;
     flex-wrap: wrap;
     padding: 250px 0 100px;
 
