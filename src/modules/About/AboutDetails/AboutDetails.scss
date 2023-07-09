@@ -48,7 +48,12 @@
 }
 
 .highlight {
-  & > :hover {
-    color: $purple;
+  &:hover {
+    color: $black !important;
+    background-color: $white;
+
+    & > span {
+      color: $black !important;  
+    }
   }
 }
