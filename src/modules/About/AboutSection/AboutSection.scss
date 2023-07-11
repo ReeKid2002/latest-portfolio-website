@@ -4,12 +4,15 @@
   min-height: 100vh;
   height: max-content;
   width: 100%;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px 0px;
 
   .heading {
-    position: absolute;
     color: $heading1;
-    right: 50px;
     font-weight: 900;
     font-size: 200px;
 
@@ -19,12 +22,10 @@
 
     @media screen and (min-width: 0px) and (max-width: 720px) {
       font-size: 50px;
-      right: 10px;
     }
 
     @media screen and (min-width: 720px) and (max-width: 1080px) {
       font-size: 90px;
-      right: 10px;
     }
   }
 
@@ -36,10 +37,5 @@
     gap: 30px;
     width: 100%;
     flex-wrap: wrap;
-    padding: 250px 0 100px;
-
-    @media screen and (min-width: 0px) and (max-width: 720px) {
-      padding: 100px 0;
-    }
   }
 }

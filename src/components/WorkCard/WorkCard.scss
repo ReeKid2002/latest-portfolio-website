@@ -1,40 +1,22 @@
 @import '../../assets/stylesheets/colors';
 
 .work-card {
-  margin: 30px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  background-color: $white;
-  padding: 5px;
+  justify-content: space-around;
+  padding: 20px;
   border-radius: 4px;
-  gap: 5px;
-
-  @media screen and (min-width: 1281px) {
-    margin-right: 300px;
-  }
-
-  @media screen and (min-width: 1080px) and (max-width: 1280px) {
-    margin-right: 250px;
-  }
-
-  @media screen and (min-width: 720px) and (max-width: 1079px) {
-    margin-right: 200px;
-  }
-
-  @media screen and (min-width: 390px) and (max-width: 719px) {
-    margin-right: 100px;
-  }
-
-  @media screen and (min-width: 0px) and (max-width: 390px) {
-    margin-right: 80px;
-  }
+  gap: 10px;
+  position: sticky;
+  top: 20%;
+  background-color: $background1;
 
   .work-card-title {
-    width: 100%;
+    width: 40%;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 10px;
 
@@ -55,7 +37,7 @@
     }
 
     .title {
-      color: $cardbackground;
+      color: $white;
       text-align: left;
       word-wrap: break-word;
 
@@ -86,6 +68,10 @@
 
   .work-card-image {
     height: max-content;
+    width: 60%;
+    background-color: $white;
+    padding: 5px;
+    border-radius: 4px;
 
     & > img {
       border-radius: 4px;

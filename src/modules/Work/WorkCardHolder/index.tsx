@@ -1,7 +1,6 @@
 import './WorkCardHolder.scss';
 import { WorkCard } from '../../../components';
 import { IWorkCard } from '../../../components/WorkCard';
-import MacBook from '../../../components/WorkCard/MacBook';
 
 
 interface IWorkCardHolder {
@@ -11,8 +10,7 @@ interface IWorkCardHolder {
 const WorkCardHolder = ({ works }: IWorkCardHolder) => {
   return (
     <div className='work-card-holder'>
-      <div className='heading'>WORK {'/>'}</div>
-      <MacBook />
+      <div className='heading'>{'<'}WORK {'/>'}</div>
       <div className='work-cards'>
         {
           works.map(work => (

@@ -13,7 +13,7 @@ interface IContactSection {
 const ContactSection = ({ contacts }: IContactSection) => {
   return (
     <div className='contact-section'>
-      <div className='heading'>CONTACT {'/>'}</div>
+      <div className='heading'>{'<'}CONTACT {'/>'}</div>
       <div className='contact-content'>
         <div className='contact-content-title'>Find Me On:</div>
         <div className='contacts'>
